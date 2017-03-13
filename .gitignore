@@ -1,0 +1,4 @@
+*.pyc
+
+# Ignore json file in config
+config/*.json
