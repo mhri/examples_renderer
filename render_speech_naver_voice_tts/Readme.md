@@ -12,8 +12,8 @@
 4. Create configuration file in arbitrary location (recommend config directory in this package) for launch this node as below.
 ```
     {
-        "client_id": "YMQz1gXDiMznmDjdrDRL",
-        "client_secret": "zVl_ZZLr67",
+        "client_id": "-",
+        "client_secret": "-",
         "language": "kr",
         "speaker": "jinho",
         "speed": 0
