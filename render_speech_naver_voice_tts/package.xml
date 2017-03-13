@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+  <name>render_speech_naver_voice_tts</name>
+  <version>0.0.0</version>
+  <description>The example package of renderer for social HRI software
+      framework to text-to-speech using NAVER speech engine.</description>
+
+  <maintainer email="byeongkyu@gmail.com">Byeong-Kyu Ahn</maintainer>
+  <author email="byeongkyu@gmail.com">Byeong-Kyu Ahn</author>
+
+  <license>>BSD</license>
+  <url type="website">https://github.com/mhri/mhri/wiki</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>mhri_msgs</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>python-pygame</build_depend>
+  <run_depend>mhri_msgs</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>python-pygame</run_depend>
+
+  <export>
+  </export>
+</package>
