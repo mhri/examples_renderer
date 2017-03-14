@@ -2,3 +2,4 @@
 
 # Ignore json file in config because private infomation
 render_speech_naver_voice_tts/config/*.json
+render_speech_nasr_tts/config/*.json
