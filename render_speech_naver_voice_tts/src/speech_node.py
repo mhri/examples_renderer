@@ -63,6 +63,11 @@ class RenderNaverVoiceTTS:
         feedback = RenderItemFeedback()
         result.result = True
 
+        if goal.data == '':
+            rospy.sleep(0.5)
+            self.server.set_succeeded(result)
+            return
+
         encText = urllib.parse.quote(goal.data)
         data = "speaker=%s&speed=%s&text="%(self.speech_conf['speaker'], self.speech_conf['speed']) + encText;
         url = "https://openapi.naver.com/v1/voice/tts.bin"
